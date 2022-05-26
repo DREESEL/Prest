@@ -34,7 +34,8 @@ export default function App() {
   const buttonLabel = (label) => {
     return(
       <View style={{
-        padding: 12
+        padding: 12,
+      
       }}>
         <Text style={{
           color: COLORS.title,
@@ -59,7 +60,7 @@ export default function App() {
               alignItems: 'center',
               padding: 15,
               paddingTop: 100,
-              background: "#000",
+              background: 'red',
             }}>
               <Image
                 source={item.image}
@@ -87,7 +88,7 @@ export default function App() {
           )
         }}
         activeDotStyle={{
-          backgroundColor: COLORS.primary,
+          backgroundColor: COLORS.white,
           width: 30,
         }}
         showSkipButton
