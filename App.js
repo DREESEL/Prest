@@ -88,7 +88,7 @@ export default function App() {
           )
         }}
         activeDotStyle={{
-          backgroundColor: COLORS.white,
+          backgroundColor: COLORS.background,
           width: 30,
         }}
         showSkipButton
