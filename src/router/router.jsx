@@ -16,6 +16,7 @@ import { createBottomTabNavigator } from 'react-navigation-tabs';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import Icon2 from 'react-native-vector-icons/Ionicons';
 import { createDrawerNavigator } from 'react-navigation-drawer';
+import GaleriaDetalle from '../screens/galeriadetalle';
 
 
 const authStack = createStackNavigator({
@@ -50,25 +51,42 @@ const authStack = createStackNavigator({
 const homeStack = createStackNavigator({
     home: {
         screen: HomeScreen,
+        navigationOptions: ({ navigation }) => ({
+            headerStyle: {
+                backgroundColor: COLORS.primary,
+                shadowOpacity: 0,
+            },
+            headerTitle: 'Best tienda de segunda',
+            headerTitleStyle: {
+                color: COLORS.white,
+                fontWeight: '800',
+            },
+            headerRight: (
+                <Icon2 name="options-sharp"
+                    size={30} color={COLORS.white}
+                    style={{paddingRight: 10}}
+                    onPress={() => { navigation.openDrawer() }}
+                />
+            ),
+        })
     },
+    galeriadetalle: {
+        screen: GaleriaDetalle,
+        navigationOptions: {
+            headerTitle: null,
+        }
+    }
 },{
-    defaultNavigationOptions: ({navigation}) => ({
+    defaultNavigationOptions: ({ navigation }) => ({
         headerStyle: {
             backgroundColor: COLORS.primary,
             shadowOpacity: 0,
         },
-        headerTitle: 'Best tienda de segunda',
-        headerTitleStyle: {
-            color: COLORS.white,
-            fontWeight: '800',
+        headerBackTitle: 'back',
+        headerBackTitleStyle: {
+            fontWeight: 'bold',
         },
-        headerRight: (
-            <Icon2 name="options-sharp"
-                size={30} color={COLORS.white}
-                style={{paddingRight: 10}}
-                onPress={() => { navigation.openDrawer() }}
-            />
-        ),
+        headerTintColor: COLORS.white,
     }),
 }) 
 
