@@ -1,0 +1,112 @@
+{
+    "id": "v1DHGRNCH9247WLYoaoA9A",
+    "alias": "???",
+    "name": "???",
+    "image_url": "https://www.google.com/search?q=mueble&tbm=isch&source=iu&ictx=1&vet=1&fir=uFDGa78L_AU8NM%252CjnRBCiuOe8CeMM%252C_%253Bk1GBrOzGoiFdGM%252CcjhPk58TfTXejM%252C_%253BtF7Qoiplu7r0IM%252C8CLRM60JBGWJfM%252C_%253BFGdOuKXbiPV28M%252CY9rXOT59WyvQtM%252C_%253Bq8S_hjlDNX4ZfM%252CL1ALejTp1Z7EXM%252C_%253BSchiWIsfREblyM%252CFFx8keXP74FjgM%252C_%253BczMAX021wjn94M%252CYBPG_4QNPdgeOM%252C_%253BtvvDcLO2frK5jM%252C70JP8Zpg9a7OfM%252C_%253BEFKP_cw1xMyWVM%252CL1ALejTp1Z7EXM%252C_%253BkoI5PdcMWF4l7M%252CN8LcuVC5WujgKM%252C_%253BlhJa_cG-vcOxkM%252CLXeHs43sujGcGM%252C_%253BG9jr-nr6xkVNnM%252CWEzHEJ8nEJ0R5M%252C_&usg=AI4_-kQM3FQGHN84HBxZvvBzx6gp3zHtvQ&sa=X&ved=2ahUKEwjBr6uy94_4AhUZHLkGHUYqDFwQ9QF6BAgLEAE#imgrc=czMAX021wjn94M",
+    "is_claimed": true,
+    "is_closed": false,
+    "url": "https://www.promart.pe/muebles",
+    "phone": "+51990002",
+    "display_phone": "(718) 599-0002",
+    "review_count": 686,
+    "categories": [
+        {
+            "alias": "muebles",
+            "title": "muebles"
+        }
+    ],
+    "rating": 4.5,
+    "location": {
+        "address1": "???",
+        "address2": "",
+        "address3": "",
+        "city": "???",
+        "zip_code": "???",
+        "country": "???",
+        "state": "???",
+        "display_address": [
+            "???",
+            "???"
+        ],
+        "cross_streets": "???"
+    },
+    "coordinates": {
+        "latitude": 40.71162,
+        "longitude": -73.95783
+    },
+    "photos": [
+        "https://i.linio.com/p/570aa025fea8d8f8669ffd0aaa03f792-product.webp",
+        "https://i.linio.com/p/e9e24caf702971e156ca1bc6a61773c2-product.webp",
+        "https://sodimac.scene7.com/is/image/SodimacPeru/3725545?fmt=jpg&fit=fit,1&wid=420&hei=420"
+    ],
+    "price": "$",
+    "hours": [
+        {
+            "open": [
+                {
+                    "is_overnight": false,
+                    "start": "1600",
+                    "end": "2200",
+                    "day": 0
+                },
+                {
+                    "is_overnight": false,
+                    "start": "1600",
+                    "end": "2200",
+                    "day": 1
+                },
+                {
+                    "is_overnight": false,
+                    "start": "1600",
+                    "end": "2200",
+                    "day": 2
+                },
+                {
+                    "is_overnight": false,
+                    "start": "1600",
+                    "end": "2200",
+                    "day": 3
+                },
+                {
+                    "is_overnight": false,
+                    "start": "1600",
+                    "end": "2200",
+                    "day": 4
+                },
+                {
+                    "is_overnight": false,
+                    "start": "0800",
+                    "end": "1000",
+                    "day": 5
+                },
+                {
+                    "is_overnight": false,
+                    "start": "1600",
+                    "end": "2200",
+                    "day": 5
+                },
+                {
+                    "is_overnight": false,
+                    "start": "0800",
+                    "end": "1000",
+                    "day": 6
+                },
+                {
+                    "is_overnight": false,
+                    "start": "1600",
+                    "end": "2200",
+                    "day": 6
+                }
+            ],
+            "hours_type": "REGULAR",
+            "is_open_now": false
+        }
+    ],
+    "transactions": [
+        "delivery"
+    ],
+    "messaging": {
+        "url": "https://www.google.com/aclk?sa=L&ai=DChcSEwik8M6W94_4AhX1RUgAHbPfBbwYABAAGgJjZQ&ae=2&sig=AOD64_2c9N--NJTSsAMRq6CYiFpXHj1v4Q&q&adurl&ved=2ahUKEwiPhsmW94_4AhXUG7kGHQTMC4cQ0Qx6BAgEEAE",
+        "use_case_text": "Mensaje"
+    }
+}
