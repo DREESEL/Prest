@@ -8,17 +8,19 @@ import 'firebase/compat/firestore';
 // Your web app's Firebase configuration
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBFxkGOyuw6Vc51QeMv-KEFNfrGj8enYwI",
-    authDomain: "wexic-845a7.firebaseapp.com",
-    projectId: "wexic-845a7",
-    storageBucket: "wexic-845a7.appspot.com",
-    messagingSenderId: "577923129450",
-    appId: "1:577923129450:web:c1b6651bc9e83cb0c0ea13",
-    measurementId: "G-KGLHYF5DN5"
-};
+    apiKey: "AIzaSyCdgSJUx41rOMmUJPDNoS5wnqeALwSdmCc",
+    authDomain: "wexic-be5b2.firebaseapp.com",
+    projectId: "wexic-be5b2",
+    storageBucket: "wexic-be5b2.appspot.com",
+    messagingSenderId: "79589969722",
+    appId: "1:79589969722:web:aa0d6894294bbe07934a03",
+    measurementId: "G-YG3WQS1422"
+  };
 
 // Initialize Firebase
 const firebaseApp = firebase.initializeApp(firebaseConfig)
 const auth = firebase.auth()
 export { auth }
+
+
 
