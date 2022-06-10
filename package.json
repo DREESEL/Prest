@@ -37,7 +37,8 @@
     "react-navigation-tabs": "^2.11.2",
     "webpack-dev-server": "~3.11.0",
     "expo-camera": "~12.2.0",
-    "expo-media-library": "~14.1.0"
+    "expo-media-library": "~14.1.0",
+    "@expo/vector-icons": "^13.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
